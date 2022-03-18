@@ -1,20 +1,13 @@
 import Reverse.ReverseString;
 import org.testng.Assert;
-import org.testng.annotations.Test;
-
-
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertTrue;
+import org.testng.annotations.*;
 
 public class ReverseStringTest {
 
     @Test
     void verifyTheTestForReversText(){
-        ReverseString reversestring = new ReverseString();
-        reversestring.toString();
-        assertTrue( "Programming is not easy if you don't know how to swim...", reversestring);
+        Assert.assertEquals(ReverseString.reverseText( "Programming is not easy if you don't know how to swim..."), "...miws ot woh wonk t'nod uoy fi ysae ton si gnimmargorP");
     }
 
-    private void assertTrue(String s, ReverseString reversestring) {
-    }
+
 }
