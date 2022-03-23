@@ -26,4 +26,23 @@ public class ReverseString {
 
         return reverse;
     }
+
+    public static boolean reverseString(String str) {
+       String str1 = "Hello World";
+
+       String str2 = "";
+
+        System.out.println(str1.isEmpty());
+
+        System.out.println(str2.isEmpty());
+        return true;
+    }
+
+
 }
+
+
+
+
+
+
